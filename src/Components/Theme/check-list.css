@@ -1,0 +1,7 @@
+div.check-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    margin-bottom: 36px;
+    max-width: 650px;
+}

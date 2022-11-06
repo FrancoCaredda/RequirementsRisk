@@ -1,0 +1,32 @@
+div.control-switch {
+    display: flex;
+    flex-direction: row;
+}
+
+div.active-switch {
+    background: #4768DB;
+}
+
+div.control-switch div.switch-state {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background-color: rgba(100, 118, 182, 0.4);
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+div.control-switch div.switch-state div.circle {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 100%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.control-switch div.switch-state:hover {
+    background-color: rgba(81, 96, 153, 0.4);
+}

@@ -1,0 +1,15 @@
+div.list-check-box-item {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+input[type=checkbox].check-box {
+    margin-right: 12px;
+    max-width: 16px;
+    min-width: 16px;
+    max-height: 16px;
+    min-height: 16px;
+    width: 16px;
+    height: 16px;
+}

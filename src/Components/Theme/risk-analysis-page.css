@@ -1,0 +1,40 @@
+div#probabilities-block-analysis {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 980px;
+    height: 226px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-bottom: 28px;
+}
+
+div#probabilities-block-analysis div.caption {
+    margin-top: 17.38px;
+    padding-top: 14.36px;
+    text-align: center;
+}
+
+div#probabilities-block-analysis div.body {
+    margin: 13px 28px 34px 28px;
+}
+
+div#probabilities-block-analysis div.body div.button-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+div#probabilities-block-analysis div.body p {
+    margin: 0;
+}
+
+div#probabilities-block-analysis div.body button.btn {
+    border-radius: 40px;
+}
+
+div#probabilities-block-analysis div.body button.calculate-button {
+    margin-left: 693px;
+    margin-right: 25px;
+}

@@ -1,0 +1,36 @@
+div#risk-identification-body {
+    padding-top: 44px;
+}
+
+div#risk-identification-body div.risk-block:first-child {
+    margin-top: 28px;
+}
+
+div#probabilities-block {
+    position: fixed;
+    left: 856px;
+    top: 138px;
+    width: 380px;
+    height: 226px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+div#probabilities-block div.caption {
+    margin-top: 17.38px;
+    text-align: center;
+}
+
+div#probabilities-block div.body {
+    margin: 13px 28px 34px 28px;
+}
+
+div#probabilities-block div.body p {
+    margin: 0;
+}
+
+div#probabilities-block div.body button.calculate-button {
+    margin-left: 206px;
+    border-radius: 40px;
+}
